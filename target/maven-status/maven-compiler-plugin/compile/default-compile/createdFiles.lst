@@ -1,0 +1,4 @@
+com\vt\entity\Post.class
+com\vt\entity\PostComment.class
+com\vt\main\Test.class
+com\vt\util\HibernateUtils.class
