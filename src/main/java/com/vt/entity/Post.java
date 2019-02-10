@@ -28,7 +28,7 @@ public class Post {
 	private String title;
 
 	@OneToMany(cascade = CascadeType.ALL)
-	@JoinColumn(name = "post_id")
+	//@JoinColumn(name = "post_id")
 	private List<PostComment> comments = new ArrayList<PostComment>();
 	
 	public Post() {
